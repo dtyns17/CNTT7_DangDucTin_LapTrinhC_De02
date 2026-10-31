@@ -34,10 +34,6 @@ int themThuoc(struct Thuoc ds[], int n) {
     scanf("%d", &ma);
     while (getchar() != '\n');
 
-    // if (timThuocTheoMa(ds, n, ma) == -1) {
-    //     printf("Ma thuoc da ton tai!\n");
-    //     return n;
-    // }
     ds[n].maThuoc = ma;
     printf("Nhap ten thuoc: ");
     fgets(ds[n].tenThuoc, sizeof(ds[n].tenThuoc), stdin);
